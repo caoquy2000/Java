@@ -1,0 +1,11 @@
+﻿=Class: dùng danh từ : cái chữ đầu tiên viết hoa, cammel case GoodPerson
+thuộc tính: name, yob, color. : cammel case, chữ đầu không viết hoa
+const: hằng số: viết hoa hết : TAX
+menthod : function : viết bằng động từ + danh từ computeArea
+contructor: tên giống như tên của class
+
+----
+không được trùng tên với các từ khóa
+được dùng _ và $ trong tên
+không bắt đầu bằng chữ số
+không dùng special character

@@ -1,0 +1,5 @@
+﻿ta phải phân biệt giữa
+a++; và ++a;
+
+a++ ; in ra a đi rồi cộng lên
+++a; cộng đi rồi in ra

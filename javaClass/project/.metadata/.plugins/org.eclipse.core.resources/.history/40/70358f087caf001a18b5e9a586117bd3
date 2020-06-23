@@ -1,0 +1,39 @@
+package data;
+
+public class Book {
+	private String bookname;
+	private String createdAt;
+	private String nickname;
+	public Book(String bookname, String createdAt, String nickname) {
+
+		this.bookname = bookname;
+		this.createdAt = createdAt;
+		this.nickname = nickname;
+	}
+	public Book() {
+		
+	}
+	public String getBookname() {
+		return bookname;
+	}
+	public void setBookname(String bookname) {
+		this.bookname = bookname;
+	}
+	public String getCreatedAt() {
+		return createdAt;
+	}
+	public void setCreatedAt(String createdAt) {
+		this.createdAt = createdAt;
+	}
+	public String getNickname() {
+		return nickname;
+	}
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+	
+	public void input() {
+		
+	}
+	
+}

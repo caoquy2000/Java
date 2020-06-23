@@ -1,0 +1,16 @@
+﻿C là đại diện cho lập trình hướng thủ tục
+	flow từ trên xuống dưới
+Java là đại diện cho lập trình hướng đối tượng
+vì là 1 trong các ngôn ngữ lập trình OOP nên java sẽ có thừa hưởng 4 nguyên lý sau
+1. Inheritance (thừa kế)
+	cho phép các class thừa kế lẩn nhau, và các interface thừa kế;
+2. Encapsulation (đóng gói)
+	các package đóng gói các class
+	giúp che giấu dữ liệu hiding information
+	giúp hiện hữu sự liên kết giữa các class
+3.Polymorphism (tính đa hình)
+	ví dụ là override và overload (sẽ học sau nhưng ở đây ta sẽ nói đơn giản)
+	override: là phương thức dùng tên cùng tham số của thằng cha và viết theo cách của thằng con(mối quan hệ cha con)
+	overLoad:  2 phương thức cùng tên nhưng khác đối số(contructor)
+	ví dụ: 
+4.abstraction(trừu tượng hoá)

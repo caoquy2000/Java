@@ -1,0 +1,14 @@
+package ui;
+
+import java.util.ArrayList;
+
+public class Menu {
+	private String menuTitle;
+	private ArrayList<String> optionList = new ArrayList();
+	//chứa các lựa chọn/thực đơn.
+	
+	//khi khởi tạo, tạo tên trước.
+	public Menu(String menuTitle) {
+		this.menuTitle = menuTitle;
+	}
+}

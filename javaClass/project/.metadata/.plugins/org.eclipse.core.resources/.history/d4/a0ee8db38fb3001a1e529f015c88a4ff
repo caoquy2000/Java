@@ -1,0 +1,102 @@
+package data;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import util.MyToys;
+
+//tủ dung79 hồ sơ các thú cưng, lồng nhốt toàn bộ đám Dog, Cat
+//->Viết hết các hàm vào đây, không viết trong main nữa
+//Tủ đựng hồ sơ các thú cưng, lồng ghép toàn bộ đám chó và mèo
+
+public class Cabinet {
+//	dùng ArrayList là 1 biến thể của mảng, để lưu trữ danh sách
+//	hồ sơ các chú pet
+//	phiên bản nâng cao dễ sài map
+	private ArrayList<Pet> petList = new ArrayList();
+	private Scanner scanner = new Scanner(System.in);
+	//Bàn phím nhập sài chung cho tất cả.
+	
+	//----------------------------------
+	//Chứa các hành động liên quan đến tủ đồ, tủ hồ sơ
+	//----------------------------------
+	//Thêm hồ sơ, tìm hồ sơ, xóa hồ sơ, sửa hồ sơ, in danh sách sort.
+	
+	//Thêm mới hồ sơ của 1 con chó
+	public void addNewDog() {
+		String id,name;
+		int yob;
+		double weight;
+		int pos;
+		do {
+//			Mã số con dog là D kèm 5 digits
+			id = MyToys.getID("Input ID (DXXXXX): ", "Error", "[D|d]\\d{5}&");
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

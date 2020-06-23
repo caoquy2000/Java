@@ -1,0 +1,21 @@
+package data;
+/**
+ *@author: giao-lang | fb/giao.lang.bis | fb/doit.now.oha
+ *version 20.0330 
+ *
+ * */
+public class Student {
+	private String id;
+	public String name;
+	public int yob; //năm sinh
+	private double gpa; //điểm trung bình
+	
+	public Student(String id , String name, int yob, double gpa) {
+		this.id = id;
+		this.name = name;
+		this.yob = yob;
+		this.gpa = gpa;
+	}
+	
+	
+}

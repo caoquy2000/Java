@@ -1,0 +1,17 @@
+package petcaresystem;
+
+import ui.Menu;
+
+public class PetCareSystem {
+	public static void main(String[] args) {
+		Menu menu = new Menu("Happiness Pet Care System ");
+		menu.addNewOption("1. Add a new dog Profile");
+		menu.addNewOption("2. Add a new cat Profile");
+		menu.addNewOption("3. Search the Pet Profile by id");
+		menu.addNewOption("4. Update a pet profile by id");
+		menu.addNewOption("5. Remove a pet");
+		menu.addNewOption("6. Print the pet list asc by id");
+		menu.addNewOption("7. Print the pet list asc by name");
+		menu.addNewOption("8. Quit");
+	}
+}

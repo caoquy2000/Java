@@ -1,0 +1,8 @@
+package data;
+
+public class Book {
+	private String bookname;
+	private String createdAt;
+	
+	
+}

@@ -1,0 +1,11 @@
+package data;
+
+public class Pet {
+	protected String id;
+	protected String name;
+	protected int yob;
+	protected double weight;
+	
+	
+	
+}

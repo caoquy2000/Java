@@ -1,0 +1,10 @@
+package util;
+
+import java.util.Scanner;
+
+//Class dùng để chứa các hàm nhập xuất dữ liệu.
+
+
+public class MyToys {
+	private static Scanner scanner = new Scanner(System.in);
+}

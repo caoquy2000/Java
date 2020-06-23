@@ -1,0 +1,61 @@
+package ui;
+
+import java.util.ArrayList;
+
+import util.MyToys;
+
+public class Menu {
+	private String menuTitle;
+	private ArrayList<String> optionList = new ArrayList();
+	//chứa các lựa chọn/thực đơn.
+	
+	//khi khởi tạo, tạo tên trước.
+	public Menu(String menuTitle) {
+		this.menuTitle = menuTitle;
+	}
+//	hàm bổ sung các lựa chọn vào danh sách, bắt đầu xây dựng thực đơn
+//	lựa chọn chương trình
+	public void addNewOption(String newOption) {
+//		cần kiểm tra xem option đưa vào có trùng hay không
+//		nếu không trùng thì add vào danh sách lựa chọn
+		optionList.add(newOption);
+	}
+	//In ra danh sách các lựa chọn để người dùng chọn lựa
+	public void printMenu() {
+		if(optionList.isEmpty()) {
+			System.out.println("There is no item in the menu");
+			return;
+		}
+		System.out.println("--------------------------------------");
+		System.out.println("Welcome to "+ menuTitle);
+		for (String x : optionList) {
+			System.out.println(x);
+		}
+	}
+	
+	public int getChoice() {
+		int maxOption = optionList.size();
+		
+		String inputMsg = "Choose[1... "+ maxOption + "]: ";
+		String errorMsg = "You are required to choose the option 1... " + maxOption;
+		
+		return MyToys.getAnInteger(inputMsg, errorMsg, 1, maxOption);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

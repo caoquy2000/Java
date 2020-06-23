@@ -1,0 +1,26 @@
+package main;
+
+import data.Student;
+
+/**
+*
+* @author giao-lang | fb/giao.lang.bis | fb/doit.now.oha
+* version 20.0330
+*/
+
+
+//Ví dụ dưới đây sử dụng mảng sinh viên để quen thuộc với mọi người
+//Các bạn có thể thay thế bằng collection (List-ArrayList,Set-HashSet) mà không khiến tư duy logic của 
+//bài toán bị thay đổi
+//Ta đang bàn về tính ứng dụng của bài toán interface, các hàm thống nhất với nhau về tên gọi, hàm và cách
+//sử dụng và triệu gọi hàm
+//Sau đó linh hoạt trong cách cài đặt, sử dụng và mở rộng, tổng quát hóa trong việc phối hợp lẫn nhau
+//đặt ra tiếng nói chung cho 1 thể thống nhất, đó chính là ý nghĩa của interface
+//bài toán này mô phỏng lệnh sql seclect * from Student where điều kiện lọc sinh viên
+//Dùng interface để linh hoạt cài đặt điều kiện lọc cho mỗi lần lọc khác nhau
+public class Main {
+	public static void main(String[] args) {
+		Student array[] = new Student[10];
+		
+	}
+}

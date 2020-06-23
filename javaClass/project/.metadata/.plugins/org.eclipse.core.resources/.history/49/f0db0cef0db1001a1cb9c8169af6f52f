@@ -1,0 +1,5 @@
+package data;
+//tủ dung79 hồ sơ các thú cưng, lồng nhốt toàn bộ đám Dog
+public class Cabinet {
+	
+}

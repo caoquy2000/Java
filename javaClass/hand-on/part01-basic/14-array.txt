@@ -1,0 +1,15 @@
+﻿mảng: là cách khai báo nhiều biến cùng 1 lúc, có cùng kiểu dữ liệu, liền kề, sát nhau, liên tiếp,cùng tên khác index
+
+Là kĩ thuật gom nhiều dữ liệu cùng kiểu cùng chung chỗ, đặt sát nhau "cá mòi đóng hộp". nói cách khác,
+
+Trong Java;
+có 2 loại mảng: mảng primitive và mảng object;
+
+Tên mãng là 1 biến object, biến đổi tượng, biến tham chiếu, cho dù trong mãng có thể gom đám primitive hay đám object
+
+int a[10];
+int[10] a;
+
+//kích thước mảng chỉ được đưa vào qua toán tử new
+
+//demo ở project

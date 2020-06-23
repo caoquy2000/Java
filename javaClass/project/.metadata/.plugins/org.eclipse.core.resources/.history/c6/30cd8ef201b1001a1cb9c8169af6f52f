@@ -1,0 +1,71 @@
+package runtime;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import data.*;
+
+//Xây dựng chương trình menu như sau.
+//Menu :
+//1.Nhập thông tin sách.
+//2.Hiển thị tất cả sách ra màn hình.
+//3.Nhập thông tin tác giả.
+//4.Tìm kiếm tất cả sách được viết bởi tác giả.
+//5.Quit.
+//yêu cầu: thiết kế lớp đối tượng Author gồm các thuộc tính sau
+//Tên, tuổi, bút danh, ngày sinh và quê quán.
+//Chú ý: cài đặt tất cả các thuộc tính chỉ có thuộc tính đọc dữ liệu thôi.
+//Tạo các hàm tạo không đối số và đầy đủ đối số.
+//Tạo phương thức nhập thông tin tác giả và xem thông tin tác giả.
+//Chú ý: mỗi tác giả có bút danh là duy nhất, không được phép nhập trùng lại.
+//Thiết kế class book gồm các thuộc tính, tên sách, ngày xuất bảng, và bút danh.
+//Cài đặt get set cho các thuộc tính. Hàm tạo không đối và đầy đủ đối số,
+//tạo hàm nhập và xem thông tin tác giả.
+//Chú ý: khi nhập bút danh của tác giả nếu không tồn tại thì phải nhập đầy đủ thông tin
+
+public class Program {
+	public static void main(String[] args) {
+		ArrayList<Author> authorList = new ArrayList<>();
+		ArrayList<Book> bookList = new ArrayList<>();
+		int choose;
+		Scanner scanner = new Scanner(System.in);
+		do {
+			showMenu();
+			System.out.println("nhap lựa chọn của bạn: ");
+			choose = Integer.parseInt(scanner.nextLine());
+			switch(choose) {
+				case 1:{
+					Book book = new Book();
+					book.input(); //nhập thông tin rồi
+					boolean isFind = false;//biến lá cờ
+					for(int i  = 0; i<= authorList.size() - 1; i++) {//duyệt mảng tác giả
+						if(book.getNickname().equalsIgnoreCase(authorList.get(i).getNickname())) {
+							isFind = true;
+							break;
+						}
+					}
+					if(!isFind) {
+						System.out.println("Vui lòng diền thông tin cho tác giả mới");
+						Author ath = new Author()
+					}
+				}
+			}
+		}while(choose != 5);
+		
+	}
+	public static void showMenu() {
+		System.out.println("Menu: ");
+		System.out.println("1.Enter information book.");
+		System.out.println("2.Show all book.");
+		System.out.println("3.Enter information author.");
+		System.out.println("4.Search book by author.");
+		System.out.println("5.Quit");
+	}
+}
+
+/*nhập tac1 gia: check xem co dublicate
+ * nhập sách: tên sách , ngày xuất bản, bút danh(có dublicate)
+ * nếu lạ : lại nhập tác giả : hãy nhập bút danh
+ * 
+ * */
+ 

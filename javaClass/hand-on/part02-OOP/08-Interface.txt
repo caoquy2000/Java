@@ -1,0 +1,36 @@
+﻿-->Interface bản chất là cha đẻ của các bộ khung.
+<Hội nhóm ăn chơi> - Thầy Nguyễn Thế Hoàng
+Bộ khung nào thì cũng cần các khung lớn hơn để đúc ra. 
+Cái khung đúc ra bộ khung chính là Interface.
+
+-Interface là một class cha đặc biệt.
+Gom những class <con> không quan tâm có phải là con mình hay không (vừa 
+extends vừa emplement) chỉ quan tâm method (1 method ở phiên bản mới).
+
+-Tức là nó định nghĩa hành động thôi, không quan tâm hành động đó như thế nào,
+=>Abstract
+
+-Ex rượt chó, cả 2 đều thực hiện hành động chạy nhưng chó thì chạy 4 chân,
+còn xe thì chạy 2 bánh, card đồ họa implement + render interface của thằng window
+(Extend với interface thì gọi là implement).
+
+-Abstract class có thể chứa thuộc tính và chứa method bth và khi extends thì 
+chỉ được 1. Nhưng mà Interface chỉ có thể chứa abstract method và nếu bạn 
+quên từ khóa abs thì nó vẫn coi là abs.
+Còn abs class là một đống họ hàng dây mơ rễ má tùm lum đặc tính gom lại với nhau.
+
+-Giống như clb Siti group gom nhóm những bạn thích sài tiền làm việc tốt (Không quan 
+tâm bạn học kì nào.)
+-Interface chỉ chứa hàm abs
+-Không có thuộc tính  => không tạo constructor cho nó.
+-Biến trong nó phải là là public static final (hằng).
+-Mọi hàm trong interface có tần truy xuất (phạm vi truy cập ) là public hoặc default.
+-Và nhắc lại một lần nữa không dùng new để tạo object là interface vì không có constructor.
+-Nên nhớ 1 class thì chỉ có một cha nhưng nó có thể có nhiều hội nhóm.
+Tức là một class chỉ có thể extends 1 class nhưng có thể implement nhiều interface
+-Đơn kế thừa và đa kế thừa.
+-Hội viên của một interface phải có trách nhiệm viết code - implements tất cả các hàm abstract của  interface
+-Tức là trong interface các abstract function ko có code, khi tạo abs (anonymours) thì ta tự viết.
+-Implements đọc là im ple ments 
+-Nếu class nào muốn vô hội nhóm của interface thì dùng implements, nếu muốn apply một lúc nhiều hội thì dùng thêm dấu phẩy.
+

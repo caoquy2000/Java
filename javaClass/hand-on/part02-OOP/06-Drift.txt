@@ -1,0 +1,15 @@
+﻿Drift trong đua xe là kỹ thuật ôm cua gấp cực mạnh
+chỉ cần Drift mượt , đẹp, gọn gàng thì mọi chuyện đã được giải quyết
+
+trong mạng xã hội Drift lại được coi như là 1 cú bẻ lái cực mạnh
+giống như đang nói về vấn đề nào đó thì bỗng nhiên chuyển chủ đề dựa trên 1 sự liên kết nào đó
+mà ta không ngờ tới
+
+Drift trong Java cũng khá giống với 2 ví dụ trên:"Tổ lái con trỏ" lái con trỏ đưa nhau đi trốn
+tìm vùng trời mới (method) của người lái (class con)
+khi ta khai báo father Diep = new Son();
+thì Diep. sẽ sổ ra những gì mà thằng cha có thôi, chứ không hề sổ ra những gì của thằng con
+"Tính chất bất hiếu" (không sổ ra những gì của con)
+
+để có thề sổ ra những gì của chính cha (sự kế thừa) và của riêng con tạo dựng
+ta dùng kỹ thuật Drift/ép kiểu

@@ -1,0 +1,19 @@
+package data;
+
+public class Dog extends Pet{
+	public static final MAX_SPEED = 50;
+	public Dog(String id, String name, int yob, double weight) {
+		super(id, name, yob, weight);
+	}
+
+	@Override
+	public double run() {
+		return 0;
+	}
+
+	@Override
+	public void showProfile() {
+		
+	}
+
+}

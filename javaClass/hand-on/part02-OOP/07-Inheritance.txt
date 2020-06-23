@@ -1,0 +1,12 @@
+﻿Một trứng chỉ chứa chấp một con tinh trùng => tạo ra baby (Object).
+
+Và một tinh trùng chỉ được tạo ra bởi 1 người mà thôi.
+Một em bé không thể được tạo bởi 2 người đàn ông.
+Không thể có chuyện 2 người đàn ông tạo ra 1 con tinh trùng được.
+Chốt hạ : MỘT BABY THÌ CÓ TỐI ĐA (EXTENDs) một cha. (Single Inheritance).
+Quan hệ is a, class này là is a của class khác, mối quan hệ cha con và nên nhớ chỉ 1 chiều mà hoy.
+Khi kế thừa con sẽ có thể dùng method của cha và ghi lên method đó theo cách riêng của nó.
+Ghi đè lên phương thức METHOD OVERRIDING.
+=> Một method cha được các class con xào nấu sau khi kế thừa theo nhiều kiểu.
+VD: Cha cho mỗi đứa con 1 quả trứng : đứa thì luộc (tròn), đứa dùng quả trứng đó để hấp nước (lỏng), đứa thì sẽ chiên (dẹp), cùng được thừa hưởng 1 quả trứng từ cha nhưng mỗi đứa lại 
+dùng quả trứng đó theo 1 kiểu khác nhau tạo ra kiểu dáng khác nhau, người ta gọi đó là tính đa hình tại runtime (gọi là thời gian chạy cod cùng lúc tạo ra nhiều loại)

@@ -1,0 +1,10 @@
+﻿-->Nếu ta đã ví class là một cái khuôn.
+-->Thì ta ví constructor là cái phễu để rót nguyên vật liệu vào phục vụ cho việc
+đúc lên các object/instance.
+-->Một Object có thẻ được tạo ra bởi nhiều nguyên vật liệu khác nhau nên ta cũng có 
+thể tạo nên nhiều cái phễu khác nhau để rót vật liệu vào khuôn theo nhiều 
+cách khác nhau. 
+ => Một class có thể có nhiều constructor.
+Mặc định JAVA sẽ tự tạo constructor là rỗng lúc chạy app.
+
+-Tên của constructor phải giống tẻn của class và không có giá trị trả về.
